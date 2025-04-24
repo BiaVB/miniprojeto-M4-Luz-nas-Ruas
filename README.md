@@ -1,4 +1,4 @@
-# Luz nas Ruas
+# Luz nas Ruas💡
 
 Este projeto tem como objetivo divulgar ONGs que ajudam pessoas em situação vulneravel.
 A aplicação conta com rotas de cadastro de usuário e verificação de conta por e-mail.
@@ -29,8 +29,5 @@ O projeto possui três rotas principais do tipo GET:
  2.Inicie o servidor:
    node src/app.js
 
-3.Acesse as rotas da API:
- http://localhost:3000/usuarios
- http://localhost:3000/usuarios/:email
- http://localhost:3000/usuarios-verificados
+3.Acesse as rotas da API
 
