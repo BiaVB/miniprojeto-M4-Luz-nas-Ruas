@@ -1,0 +1,229 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: white;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+/* cabeçalho*/
+header{
+    padding: 13px 3%;
+    background-color: rgba(255, 255, 0, 0.911);
+}
+header > .interface{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px ;
+    display: inline-block;
+
+}
+header a:hover{
+    color: white;
+    transform: scale(1.08);
+}
+header nav ul{
+    list-style-type: none;
+   
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header .btn-cadastro button{
+padding: 10px 40px;
+font-size: 19px;
+font-weight: 600;
+background-color: white;
+border: 0;
+border-radius: 30px;
+cursor: pointer;
+}
+header .btn-cadastro button:hover{
+    box-shadow: 0px 0px 8px rgb(107, 105, 105) ;
+}
+
+/* topo */
+section.topo {
+    background-image: url('img/minipIMG.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 200px 20px;
+    color: #fff;
+    text-align: center;
+  }
+.topo h1{
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.txt-topo {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* abaixo */
+.abaixoAssinados {
+    padding: 60px 4%;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .abaixoAssinado h2 {
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  
+.abaixo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .abaixoAssinado {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .abaixoAssinado img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .abaixoAssinado p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .abaixoAssinado a {
+    display: inline-block;
+    background-color: #ffd700;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .abaixoAssinado a:hover {
+    background-color: #ff0095;
+  }
+
+  /* doação */
+  .doacao {
+    padding: 60px 4%;
+    background-color: #fde9e9;
+    text-align: center;
+  }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container .doacao {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .doacao h2 {
+    font-size: 28px;
+    margin-bottom: 60px; 
+  }
+  .container .doacao a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd60a;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  
+  .container .doacao a:hover {
+    background-color: #ff0095;
+  }
+  
+  /* redes sociais*/
+  #redes-sociais {
+    padding: 60px 4%;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .social-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 900px;  
+    margin: 0 auto;
+  }
+  
+  .social-card {
+    padding: 20px;
+    width: 250px;  
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.329);
+    transition: transform 0.2s ease;
+  }
+  .social-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .social-card img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .social-card a {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+    text-decoration: line;
+  }
+  
+  .social-card p {
+    font-size: 0.9rem;
+    color: #222222;
+  }
